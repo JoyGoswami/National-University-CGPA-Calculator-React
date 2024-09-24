@@ -1,0 +1,68 @@
+/*             */
+/*  Main Home  */
+/*             */
+
+.main_inner_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_img {
+  width: 169px;
+  height: 336px;
+  margin: 0 auto;
+}
+
+.input_year_sub_form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.input_field {
+  height: 32px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  padding-inline: 16px;
+  border-right: 16px solid transparent;
+  font-weight: 200;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.active {
+  border: 1px solid rgb(75, 0, 0);
+}
+
+input[type="submit"]:hover {
+  background-color: #d1d1d1;
+  transition: all 0.3s ease-in-out;
+}
+
+.input_field option {
+  color: black;
+}
+
+.or {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+.all_year_cgpa_btn_container_home {
+  width: 100%;
+}
+.btn:hover {
+  background-color: #b3b3b3;
+  transition: all 0.3s ease-in-out;
+}
+
+/*             */
+/*  Main Home  */
+/*             */

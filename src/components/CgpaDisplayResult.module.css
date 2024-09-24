@@ -1,0 +1,16 @@
+.cgpa_result_container {
+  height: 64px;
+}
+.cgpa_result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+.cgpa_year {
+  font-weight: 300;
+}
+.result_box p {
+  font-weight: 300;
+}

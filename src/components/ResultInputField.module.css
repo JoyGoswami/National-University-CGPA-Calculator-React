@@ -1,0 +1,49 @@
+.result_page_form_inner {
+  background-color: var(--primary-color);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+.subject_name {
+  font-weight: 300;
+}
+.result_input_container {
+  display: flex;
+  justify-content: space-between;
+}
+.result_form_field {
+  background-color: var(--grade-input-color);
+  width: 150px;
+  height: 24px;
+  display: flex;
+
+  align-items: center;
+  padding-inline: 8px;
+  gap: 10px;
+}
+
+.result_form_field {
+  background-color: var(--grade-input-color);
+  width: 150px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-weight: 300;
+  padding-inline: 8px;
+  gap: 10px;
+}
+.result_form_field select {
+  width: 72px;
+  height: 100%;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 361px) {
+  .result_form_field {
+    width: 49%;
+  }
+}

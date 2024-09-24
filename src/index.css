@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --logo-color: #5092ce;
+  --primary-color: #e9e9e9;
+  --grade-input-color: #d1d1d1;
+}
+
+body {
+  font-family: "Roboto", system-ui;
+  height: 100vh;
+}
+#root {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 64px 1fr 32px;
+}
+.container {
+  width: 360px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+
+@media (min-width: 361px) {
+  .container {
+    width: 100%;
+  }
+  .result_form_field {
+    width: 49%;
+  }
+}
+@media (min-width: 700px) {
+  .container {
+    width: 700px;
+  }
+}

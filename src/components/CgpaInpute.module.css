@@ -1,0 +1,19 @@
+.cgpa_result_page_form_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+
+  background-color: var(--primary-color);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+.cgpa_result_page_form_inner select {
+  height: 100%;
+  width: 200px;
+  border: none;
+  background-color: inherit;
+  outline: none;
+  font-weight: 300;
+}
