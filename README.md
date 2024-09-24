@@ -1,8 +1,17 @@
-# React + Vite
+# National University CGPA Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This React app calculates the GPA and CGPA for students studying at National University, Bangladesh. The specialty of this app is that, unlike other apps, it displays courses and credits based on the subject and year you enter on the home page, as it is specifically designed for National University students.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Author
+
+- Joy Goswami
+
+## Screenshots
+
+![Home Page](https://github.com/JoyGoswami/national-university-cgpa-calculator/blob/main/assets/imgs/home_page.png?raw=true)
+
+![GPA Calculate Page](https://github.com/JoyGoswami/national-university-cgpa-calculator/blob/main/assets/imgs/gpa_page.png?raw=true)
+
+![CGPA Calculate Page](https://github.com/JoyGoswami/national-university-cgpa-calculator/blob/main/assets/imgs/cgpa_page.png?raw=true)
